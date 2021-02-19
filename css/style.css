@@ -189,3 +189,27 @@ ul{
     clear: both;
     padding: 40px 0 20px;
 }
+
+/* Portfólio */
+
+.portfolio{
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.portfolio .subtitulo{
+    color: #fec63e;
+}
+
+.portfolio .subtitulo::after{
+    background-color: #fec63e;
+}
+
+.portfolio ul li:last-child{
+    padding-top: 16px;
+}
+
+.portfolio .call p{
+    color: #fff;
+}
