@@ -213,3 +213,39 @@ ul{
 .portfolio .call p{
     color: #fff;
 }
+
+/* Qualidade */
+
+.qualidade{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.qualidade::after{
+    content: "";
+    display: block;
+    background: url(../img/linhas.svg) no-repeat center;
+    width: 634px;
+    height: 83px;
+    position: absolute;
+    top: 207px;
+    right: 162px;
+    z-index: -1; /* só para garantir que fique por baixo de outros elementos  */
+}
+
+.qualidade_lista h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+    letter-spacing: .1em;
+}
+
+.qualidade_lista h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 8px auto;
+}
