@@ -249,3 +249,13 @@ ul{
     background-color: #000;
     margin: 8px auto;
 }
+
+/* Citação */
+
+.citacao{
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    height: 220px;
+    text-align: center;
+    padding-top: 44px;
+}
