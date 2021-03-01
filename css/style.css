@@ -344,13 +344,13 @@ footer ul li{
     color: #fff;
 }
 
-.introducao_interna h2{
+.introducao_interna h2, .introducao_interna h1{
     padding-top: 35px;
     text-transform: uppercase;
     font-size: 36px;
 }
 
-.introducao_interna h2::after{
+.introducao_interna h2::after, .introducao_interna h1::after{
     content: "";
     display: block;
     width: 60px;
@@ -361,6 +361,14 @@ footer ul li{
 
 .bg_sobre{
     background: url(../img/bg-sobre.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+}
+
+.bg_produtos{
+    background: url(../img/bg-produtos.jpg) no-repeat center;
+    background-size: cover;
     width: 100%;
     height: 160px;
 }
@@ -395,4 +403,84 @@ footer ul li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     padding-bottom: 15px;
+}
+
+/* Produtos */
+
+.interna_produtos{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.bg_passeio{
+    background: url(../img/produtos/bikcraft-passeio-1.jpg) no-repeat center;
+    width: 640px;
+    height: 280px;
+}
+
+.bg_esporte{
+    background: url(../img/produtos/bikcraft-esporte-1.jpg) no-repeat center;
+    width: 640px;
+    height: 280px;
+}
+
+.bg_retro{
+    background: url(../img/produtos/bikcraft-retro-1.jpg) no-repeat center;
+    width: 640px;
+    height: 280px;
+}
+
+.titulo_produto{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 112px;
+}
+
+.titulo_produto::before, .titulo_produto::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto 5px auto;
+}
+
+.icone_produto{
+    background-color: #000;
+    padding: 68px 40px;
+    margin-bottom: 16px;
+}
+
+.info_produto{
+    background-color: #000;
+}
+
+.info_produto p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 39px 30px;
+}
+
+.info_produto ul li{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fec63e;
+    width: 229px;
+    height: 50px;
+    float: left;
+    padding-top: 16px;
+}
+
+.info_produto ul li:nth-child(even){
+    margin-left: 2px;
+}
+
+.info_produto ul li:nth-child(1), .info_produto ul li:nth-child(2){
+    margin-bottom: 2px;
 }
