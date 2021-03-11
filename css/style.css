@@ -246,6 +246,10 @@ ul{
     z-index: -1; /* só para garantir que fique por baixo de outros elementos  */
 }
 
+.qualidade_lista{
+    padding: 0 10px;
+}
+
 .qualidade_lista h3{
     font-size: 18px;
     font-weight: bold;
@@ -403,6 +407,10 @@ footer ul li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     padding-bottom: 15px;
+}
+
+.qualidade_sobre{
+    padding-bottom: 170px;
 }
 
 /* Produtos */
