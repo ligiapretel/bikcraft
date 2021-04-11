@@ -27,6 +27,10 @@ ul{
     list-style: none;
 }
 
+img{
+    max-width: 100%; /*Para deixar a imagem responsiva e ela se adaptar ao elemento pai*/
+}
+
 .btn{
     color: #fec63e;
     font-size: 14px;
