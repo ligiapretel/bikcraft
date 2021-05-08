@@ -730,6 +730,14 @@ footer ul li{
     .header_menu ul li a:hover {
         border-color: #fff;
     }
+    
+    .header_menu ul li a.menu_ativo {
+        border-color: #fff;
+    }
+
+    .header_menu ul li a.menu_ativo::after{
+     display: none;
+    }
 
     /* Introdução */
     
@@ -743,26 +751,64 @@ footer ul li{
     .introducao h1{
         font-size: 38px;
     }
+
+    /* Introdução interna */
+
+    .introducao_interna{
+        padding-top: 0px;
+    }
     
     /* Qualidade */
 
+    .qualidade{
+        padding: 30px 0;
+    }
+
     .qualidade::after{
-        background: url(../img/linha_mobile.svg) no-repeat center;
-        right: -168px;
-        top: 240px;
+        display: none;
     }
 
     .qualidade ul{
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .qualidade_lista h3{
-        padding-top: 30px;
+        padding-top: 15px;
+    }
+
+    .qualidade_sobre {
+        padding-bottom: 20px;
     }
 
     /* Call */
 
     .call p{
         padding: 20px 0 20px;
+    }
+
+    /* Sobre */
+
+    .sobre{
+        padding-top: 30px;
+    }
+
+    .sobre p {
+        font-size: 16px; 
+        width: 100%;
+    }
+
+    .sobre ul li {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .sobre ul {
+        margin-bottom: 30px;
+    }
+
+    /* Produtos */
+
+    .produtos {
+        padding: 30px 0;
     }
 }
