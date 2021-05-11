@@ -723,6 +723,11 @@ footer ul li{
         margin-top: 30px;
     }
 
+     /* Portfólio */
+
+     .depoimento p {
+        max-width: 60%;
+    }
 }
 	
 /* Estilo para smartphone */
@@ -875,5 +880,29 @@ footer ul li{
 
     .orcamento input, .orcamento textarea {
         width: 100%;
+    }
+
+    /* Portfólio */
+
+    .depoimento p {
+        max-width: 100%;
+    }
+
+    /* Contato */
+
+    .contato input, .contato textarea {
+        width: 100%;
+    }
+
+    .contato {
+        padding: 30px 0;
+    }
+
+    .contato p:nth-child(odd) {
+        padding-bottom: 14px;
+    }
+
+    .contato_mapa {
+        padding-bottom: 45px;
     }
 }
