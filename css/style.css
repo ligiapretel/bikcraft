@@ -694,6 +694,35 @@ footer ul li{
        height: 26px;
     }
 
+    /* Produtos */
+
+    .bg_passeio, .bg_esporte, .bg_retro {
+        width: 508px;
+        height: 238px;
+    }
+
+    .titulo_produto {
+        padding-top: 90px;
+    }
+
+    .info_produto p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 20px;
+    }
+
+    .info_produto ul li {
+        width: 181px;
+    }
+
+    .interna_produtos {
+        padding-top: 30px;
+    }
+
+    .orcamento {
+        margin-top: 30px;
+    }
+
 }
 	
 /* Estilo para smartphone */
@@ -810,5 +839,41 @@ footer ul li{
 
     .produtos {
         padding: 30px 0;
+    }
+
+    .bg_passeio, .bg_esporte, .bg_retro {
+        width: 300px;
+        height: 131px;
+        margin-bottom: 22px;
+    }
+
+    .titulo_produto {
+        padding-top: 36px;
+    }
+
+    .icone_produto {
+        display: none;
+    }
+
+    .info_produto p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 20px;
+    }
+
+    .info_produto ul li {
+        width: 149px;
+    }
+
+    .interna_produtos {
+        padding-top: 30px;
+    }
+
+    .orcamento {
+        margin-top: 30px;
+    }
+
+    .orcamento input, .orcamento textarea {
+        width: 100%;
     }
 }
