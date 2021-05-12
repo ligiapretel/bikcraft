@@ -723,6 +723,25 @@ footer ul li{
     background-color: #fec63e;
 }
 
+/* Estilizando o data-anime, que cria efeitos de animação na entrada do site*/
+/* Inicialmente a opacidade sempre será 0 (data-anime), e no anime, a opacidade será 1, e coloco um efeito de transição */
+.js [data-anime]{
+    opacity: 0;
+}
+
+/* Classe fadeInDown - deve ser adicionada no html, nos elementos que serão animados com esse efeito */
+/* O transform permite que o elemento sofra mudanças na posição, rotação, etc, sem interferir nos outros elementos da tela. O translate mexe no eixo x, y, e rotação */
+.js .fadeInDown{
+    transform: translate3d(0, -20px, 0);
+}
+
+/* A classe fadeInDown translaciona o elemento, então na anime, coloco transform none para que o elemento volte a sua posição original, com um efeito de transição suave */
+.js .anime{
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+
 /* Estilo para tablet */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {

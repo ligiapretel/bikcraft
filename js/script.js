@@ -14,3 +14,9 @@ if(window.SimpleSlide){
     });
 
 }
+
+//Verificando se existe o objeto SimpleAnime na página, para não dar erro nas páginas que não usam esse objeto.
+if(window.SimpleAnime){
+    //Criando o objeto SimpleAnime 
+    new SimpleAnime();
+}
